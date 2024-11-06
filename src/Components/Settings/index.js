@@ -1,9 +1,11 @@
 import { View, Text, StyleSheet, Switch, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import Avatar from '../Avatar';
 
 const SettingsCard = ({ isDarkMode, toggleSwitch }) => {
   return (
     <View style={[styles.container, isDarkMode && styles.darkContainer]}>
+      <Avatar/>
       <View style={styles.section}>
         <Text style={[styles.header, isDarkMode && styles.darkText]}>Profile</Text>
         <TouchableOpacity style={[styles.rowWithBackground, isDarkMode ? styles.darkRow : styles.lightRow]}>

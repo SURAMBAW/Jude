@@ -29,9 +29,10 @@ const styles = StyleSheet.create({
     flex: 1, 
     justifyContent: 'center',
     alignItems: 'center',
-    width: '100%',
+    width: '120%',
     height: 250, 
-    marginBottom: 20,
+    marginBottom: 300,
+    right: 40,
   },
   content: {
     alignItems: 'center', 
